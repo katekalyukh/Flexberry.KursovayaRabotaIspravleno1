@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Оператор",
+  "name": "IISKursovayaRabotaIspravleno1ОператорE",
+  "className": "ОператорE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-ispravleno1-оператор",
+      "modelProjection": "ОператорE"
+    }
+  ]
+}

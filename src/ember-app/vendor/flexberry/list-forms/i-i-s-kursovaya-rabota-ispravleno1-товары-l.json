@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-ispravleno1-товары-e",
+  "editForm": "i-i-s-kursovaya-rabota-ispravleno1-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISKursovayaRabotaIspravleno1ТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-ispravleno1-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

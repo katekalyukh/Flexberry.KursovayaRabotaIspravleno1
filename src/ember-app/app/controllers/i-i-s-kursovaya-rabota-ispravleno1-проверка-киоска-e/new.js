@@ -1,0 +1,4 @@
+import IISKursovayaRabotaIspravleno1ПроверкаКиоскаEController from '../i-i-s-kursovaya-rabota-ispravleno1-проверка-киоска-e';
+
+var IISKursovayaRabotaIspravleno1ПроверкаКиоскаENewController = IISKursovayaRabotaIspravleno1ПроверкаКиоскаEController;
+export default IISKursovayaRabotaIspravleno1ПроверкаКиоскаENewController;

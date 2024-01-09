@@ -1,0 +1,4 @@
+import IISKursovayaRabotaIspravleno1КлиентEController from '../i-i-s-kursovaya-rabota-ispravleno1-клиент-e';
+
+var IISKursovayaRabotaIspravleno1КлиентENewController = IISKursovayaRabotaIspravleno1КлиентEController;
+export default IISKursovayaRabotaIspravleno1КлиентENewController;

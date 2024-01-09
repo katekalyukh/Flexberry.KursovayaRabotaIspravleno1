@@ -1,0 +1,178 @@
+﻿{
+  "name": "IISKursovayaRabotaIspravleno1Фото",
+  "modelName": "i-i-s-kursovaya-rabota-ispravleno1-фото",
+  "className": "Фото",
+  "nameSpace": "IIS.KursovayaRabotaIspravleno1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказ",
+      "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-заказ",
+      "inverse": "фото"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ФотоE",
+      "modelName": "i-i-s-kursovaya-rabota-ispravleno1-фото",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Заказ",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Заказ.Фотокиоск",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "Заказ.Фотокиоск.Товары",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "вид",
+                      "caption": "Вид фото",
+                      "hidden": false,
+                      "index": 1
+                    },
+                    {
+                      "name": "стоимость",
+                      "caption": "Стоимость",
+                      "hidden": false,
+                      "index": 2
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "товары",
+                  "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-товары",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "фотокиоск",
+              "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-фотокиоск",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "Вид фото",
+          "name": "заказ",
+          "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-заказ",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ФотоL",
+      "modelName": "i-i-s-kursovaya-rabota-ispravleno1-фото",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Заказ",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Заказ.Фотокиоск",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "Заказ.Фотокиоск.Товары",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "вид",
+                      "caption": "Вид фото",
+                      "hidden": false,
+                      "index": 1
+                    },
+                    {
+                      "name": "стоимость",
+                      "caption": "Стоимость",
+                      "hidden": false,
+                      "index": 2
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "товары",
+                  "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-товары",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "фотокиоск",
+              "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-фотокиоск",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "Вид фото",
+          "name": "заказ",
+          "relatedTo": "i-i-s-kursovaya-rabota-ispravleno1-заказ",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

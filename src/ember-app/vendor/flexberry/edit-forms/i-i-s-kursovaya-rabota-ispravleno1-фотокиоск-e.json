@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Фотокиоск",
+  "name": "IISKursovayaRabotaIspravleno1ФотокиоскE",
+  "className": "ФотокиоскE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-ispravleno1-фотокиоск",
+      "modelProjection": "ФотокиоскE"
+    }
+  ]
+}

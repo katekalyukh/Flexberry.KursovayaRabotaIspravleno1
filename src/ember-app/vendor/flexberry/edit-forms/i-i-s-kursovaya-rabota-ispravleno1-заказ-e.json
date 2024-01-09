@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISKursovayaRabotaIspravleno1ЗаказE",
+  "className": "ЗаказE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-ispravleno1-заказ",
+      "modelProjection": "ЗаказE"
+    }
+  ]
+}
